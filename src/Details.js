@@ -4,21 +4,19 @@ import { useParams } from "react-router-dom";
 const Details = () => {
     const [Movie, setMovie] = useState(null);
     const { id } = useParams();
-    console.log(id);
-
-    const getDetails = async () => {
-        try {
-            const { data } = await axios.get(
-                `https://api.themoviedb.org/3/movie/${id}?api_key=5916c3f8aebf48725786f494decb0db8`
-            );
-            setMovie(data);
-        } catch (err) {
-            console.log(err);
-        }
-    };
+    // console.log(id);
 
     useEffect(() => {
-        getDetails();
+        (async function () {
+            try {
+                const { data } = await axios.get(
+                    `https://api.themoviedb.org/3/movie/${id}?api_key=5916c3f8aebf48725786f494decb0db8`
+                );
+                setMovie(data);
+            } catch (err) {
+                console.log(err);
+            }
+        })();
     }, [id]);
 
     let MovieDetails = "Loading...";
