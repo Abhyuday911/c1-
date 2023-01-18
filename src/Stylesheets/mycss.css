@@ -57,6 +57,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    color: #888;
 }
 
 #nleft, #nright{
@@ -68,4 +69,9 @@ body {
 
 p{
     margin: 0;
+}
+
+#maincontent{
+    color: rgb(196, 196, 196);
+    padding: 1vw 2vw;
 }

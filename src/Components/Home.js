@@ -42,6 +42,9 @@ const Home = () => {
                         </div>
                         <div id="nright">Kuch hai</div>
                     </div>
+                    <div id="maincontent">
+                        <h1>Popular movies</h1>
+                    </div>
                 </div>
             </div>
             {MovieList}
