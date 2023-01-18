@@ -30,7 +30,7 @@ const App = () => {
     }
 
     return (
-        <div style={{color: "red"}}>
+        <div style={{color: "red", backgroundColor: "#222"}}>
             {MovieList}
             <hr />
             <Routes>
