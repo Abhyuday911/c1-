@@ -51,6 +51,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="slide"></div>
             </div>
 
 
