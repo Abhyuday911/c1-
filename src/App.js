@@ -1,11 +1,10 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom";
-import Details from "./Details";
+import Details from "./Components/Details";
 import Home from "./Components/Home";
 import "./Stylesheets/mycss.css"
 
 const App = () => {
-
 
     return (
         <div>

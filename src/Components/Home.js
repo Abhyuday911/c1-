@@ -31,11 +31,24 @@ const Home = () => {
     }
     return (
         <>
+            <div id="main">
+                <div className="slide">
+                    <div id="nav">
+                        <div id="nleft">
+                            <p>Movies</p>
+                            <p>TV Shows</p>
+                            <p>People</p>
+                            <p>More</p>
+                        </div>
+                        <div id="nright">Kuch hai</div>
+                    </div>
+                </div>
+            </div>
             {MovieList}
             <hr />
             <Outlet />
-        </>
 
+        </>
     )
 }
 
