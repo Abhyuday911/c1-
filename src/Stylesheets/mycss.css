@@ -77,11 +77,11 @@ p {
     width: 100%;
     color: rgb(196, 196, 196);
     padding: 1vw 2vw;
-    overflow: hidden;
 }
 
 .simple {
     width: 100%;
+    height: calc(100% - 60px);
 }
 
 #simpleL,
