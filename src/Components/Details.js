@@ -23,13 +23,12 @@ const Details = () => {
 
     if (Movie) {
         MovieDetails = (
-            <div>
-                <h1>{Movie.original_title}</h1>
+            <div id="simpleR">
                 <img
                     src={`https://image.tmdb.org/t/p/w500/${Movie.poster_path}`}
                     alt={Movie.poster_path}
-                    height={200}
                 />
+                <h1>{Movie.original_title}</h1>
             </div>
         );
     }

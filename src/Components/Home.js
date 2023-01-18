@@ -39,17 +39,20 @@ const Home = () => {
                             <p>TV Shows</p>
                             <p>People</p>
                             <p>More</p>
+
                         </div>
-                        <div id="nright">Kuch hai</div>
+                        <div id="nright"><h4>plain wala mal niche hai</h4></div>
                     </div>
                     <div id="maincontent">
                         <h1>Popular movies</h1>
+                        <div className="d-flex simple">
+                            <div id="simpleL"><ul>{MovieList}</ul></div>
+                            <Outlet />
+                        </div>
                     </div>
                 </div>
             </div>
-            {MovieList}
-            <hr />
-            <Outlet /> 
+
 
         </>
     )
