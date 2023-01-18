@@ -49,7 +49,7 @@ const Home = () => {
             </div>
             {MovieList}
             <hr />
-            <Outlet />
+            <Outlet /> 
 
         </>
     )
