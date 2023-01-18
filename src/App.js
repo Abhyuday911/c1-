@@ -24,7 +24,7 @@ const App = () => {
     if (Movies.length > 0) {
         MovieList = Movies.map((m) => (
             <li key={m.id}>
-                <Link to={`/details/${m.id}`}>{m.original_title}</Link>
+                <Link to={`/details/${m.id}`}>{m.original_title}</Link> 
             </li>
         ));
     }
