@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 const Details = () => {
     const [Movie, setMovie] = useState(null);
     const { id } = useParams();
-    // console.log(id);
 
     useEffect(() => {
         (async function () {

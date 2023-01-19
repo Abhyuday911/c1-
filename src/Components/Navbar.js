@@ -6,22 +6,22 @@ const Navbar = () => {
         <div id="nav">
             <div id="nleft">
                 <NavLink
-                    className={({ isActive }) => (isActive ? "red" : "")}
+                    className={({ isActive }) => (isActive ? "activeNavLink" : "")}
                     to="/"
                 >
                     Home
                 </NavLink>
                 <NavLink
-                    className={({ isActive }) => (isActive ? "red" : "")}
+                    className={({ isActive }) => (isActive ? "activeNavLink" : "")}
                     to="/popular"
                 >
                     Popular
                 </NavLink>
                 <NavLink
-                    className={({ isActive }) => (isActive ? "red" : "")}
-                    to="/"
+                    className={({ isActive }) => (isActive ? "activeNavLink" : "")}
+                    to="/latest"
                 >
-                    Something
+                    Latest 
                 </NavLink>
                 <p>More</p>
             </div>

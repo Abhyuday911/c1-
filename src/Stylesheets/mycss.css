@@ -134,6 +134,6 @@ ul{
     color: #fafafa;
 }
 
-/* #merah1{
-    text-align: center;
-} */
+.activeNavLink{
+    color: rgb(10, 162, 196) !important;
+}

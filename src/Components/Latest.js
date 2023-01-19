@@ -9,7 +9,7 @@ const Popularmovies = () => {
     const getPopularMovies = async () => {
         try {
             const { data } = await axios.get(
-                "https://api.themoviedb.org/3/movie/popular?api_key=5916c3f8aebf48725786f494decb0db8"
+                "https://api.themoviedb.org/3/movie/top_rated?api_key=5916c3f8aebf48725786f494decb0db8"
             );
             setMovies(data.results);
         } catch (err) {
@@ -25,13 +25,13 @@ const Popularmovies = () => {
     if (Movies.length > 0) {
         MovieList = Movies.map((m) => (
             <li key={m.id}>
-                <Link to={`/popular/details/${m.id}`}>{m.original_title}</Link>
+                <Link to={`/latest/details/${m.id}`}>{m.original_title}</Link>
             </li>
         ));
     }
     return (
         <>
-            <h1>Popular movies</h1>
+            <h1>Latest movies</h1>
             <div className="d-flex simple">
                 <div id="simpleL"><ul>{MovieList}</ul></div>
                 <Outlet />
