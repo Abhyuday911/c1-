@@ -60,17 +60,42 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 30px;
     position: fixed;
     top: 0%;
     left: 0%;
 }
 
 #nleft {
-    /* height: auto; */
-    /* width: auto; */
     display: flex;
+    align-items: center;
     gap: 25px;
+}
+
+.movieinput {
+    width: 20vw;
+    margin-right: 4%;
+    height: 32px;
+    background-color: #262626;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgb(250, 250, 250);
+    padding: 3px 16px;
+    padding-left: 13%;
+    background-image: url('../assets/search_Icon.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 5% 50%;
+}
+
+.navlogo {
+    height: 30px;
+    width: 140px;
+    object-fit: contain;
 }
 
 p {
@@ -104,9 +129,16 @@ h5 {
     width: 55vw;
     padding: 1.6vw 0px 0px 0px;
     height: calc(100vh - 60px);
+
+    background: rgba(46, 43, 43, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(79, 79, 81, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(32, 30, 30, 0.18);
 }
 
-#simpleR h1{
+#simpleR h1 {
     height: calc(100vh - 60px - 70vh - 15px - 1.6vw);
     display: flex;
     align-items: center;
@@ -181,9 +213,43 @@ li {
     font-weight: 700;
 }
 
-#year{
+#year {
     font-size: 18px;
     line-height: 18px;
     color: #cdcdcd9c;
 }
 
+.pDetail {
+    height: calc(70vh - 15px);
+}
+
+#movieDetails {
+    height: 100%;
+}
+
+#movieDetails {
+    padding: 0px 0px 0px 25px;
+}
+
+#movieDetails h4 {
+    font-weight: 500;
+}
+
+#overviewdets {
+    font-size: 20px;
+    color: #999;
+    height: 50%;
+    background-color: rgba(36, 35, 35, 0.316);
+    overflow: auto;
+    border: 2px solid rgb(19, 25, 32);
+}
+
+
+
+
+
+
+
+
+
+/* slide2 */
