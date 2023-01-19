@@ -30,13 +30,19 @@ const Popularmovies = () => {
         ));
     }
     return (
-        <>
-            <h1>Popular movies</h1>
-            <div className="d-flex simple">
-                <div id="simpleL"><ul>{MovieList}</ul></div>
-                <Outlet />
+
+        <div id="main">
+            <div id='slide1' className="slide">
+                <div id="maincontent">
+                    <h1>Popular movies</h1>
+                    <div className="d-flex simple">
+                        <div id="simpleL"><ul>{MovieList}</ul></div>
+                        <Outlet />
+                    </div>
+                </div>
             </div>
-        </>
+            <div className="slide"></div>
+        </div>
     )
 }
 
