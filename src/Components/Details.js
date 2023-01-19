@@ -30,10 +30,14 @@ const Details = () => {
                             src={`https://image.tmdb.org/t/p/w500/${Movie.poster_path}`}
                             alt={Movie.poster_path}
                         />
-                        <p id="yearp"> <p id="year">[{Movie.release_date.split('-')[0]}]</p></p>
+                        <p id="yearp">
+                            <p id="year">[{Movie.release_date.split('-')[0]}]</p>
+                            <p id="rating"></p>
+                        </p>
                     </div>
                     <div id="movieDetails">
-                        <h4><b>Conclusion:</b></h4>
+                        <h4><b>Overview:</b></h4>
+                        <p id="overviewdets">{Movie.overview}</p>
                     </div>
                 </div>
                 <h1>{Movie.original_title}</h1>

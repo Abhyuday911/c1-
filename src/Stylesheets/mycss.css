@@ -187,3 +187,23 @@ li {
     color: #cdcdcd9c;
 }
 
+.pDetail{
+    height: calc(70vh - 15px);
+    /* background-color: rgb(15, 166, 226); */
+}
+
+#movieDetails{
+    height: 100%;
+}
+
+#movieDetails {
+    padding: 0px 0px 0px 25px;
+}
+
+#overviewdets{
+    font-size: 20px;
+    color: #999;
+    height: 50%;
+    overflow: auto;
+}
+
