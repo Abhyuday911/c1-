@@ -121,6 +121,7 @@ h5{
     height: calc(70vh - 15px);
     border-radius: 4px;
     margin-bottom: 7px;
+    border: 6px solid #444;
 }
 
 ul{
