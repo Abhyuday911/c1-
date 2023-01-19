@@ -66,8 +66,7 @@ body {
     left: 0%;
 }
 
-#nleft,
-#nright {
+#nleft {
     /* height: auto; */
     /* width: auto; */
     display: flex;
@@ -140,4 +139,14 @@ ul{
 
 .activeNavLink{
     color: rgb(10, 162, 196) !important;
+}
+
+#nright a{
+    color: rgb(31, 121, 181);
+    display: flex;
+    gap: 4px;
+}
+
+#nright h5{
+    margin: 0;
 }
