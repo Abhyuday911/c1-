@@ -24,10 +24,18 @@ const Details = () => {
     if (Movie) {
         MovieDetails = (
             <div id="simpleR">
-                <img
-                    src={`https://image.tmdb.org/t/p/w500/${Movie.poster_path}`}
-                    alt={Movie.poster_path}
-                />
+                <div className="d-flex pDetail">
+                    <div id="pimg">
+                        <img
+                            src={`https://image.tmdb.org/t/p/w500/${Movie.poster_path}`}
+                            alt={Movie.poster_path}
+                        />
+                        <p id="yearp"> <p id="year">[{Movie.release_date.split('-')[0]}]</p></p>
+                    </div>
+                    <div id="movieDetails">
+                        <h4><b>Conclusion:</b></h4>
+                    </div>
+                </div>
                 <h1>{Movie.original_title}</h1>
             </div>
         );

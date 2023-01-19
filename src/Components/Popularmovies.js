@@ -35,7 +35,7 @@ const Popularmovies = () => {
             <div id='slide1' className="slide">
                 <div id="maincontent">
                     <div className="d-flex simple">
-                        <div id="simpleL"><h1>Popular movies</h1><ul>{MovieList}</ul></div>
+                        <div id="simpleL"><h1>Popular Movies</h1><ul>{MovieList}</ul></div>
                         <Outlet />
                     </div>
                 </div>
