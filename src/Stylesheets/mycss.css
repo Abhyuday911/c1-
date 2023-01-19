@@ -93,19 +93,25 @@ h5{
 .simple {
     width: 100%;
     height: calc(100vh - 60px);
+    gap: 2.4vw;
 }
 
-#simpleL,
-#simpleR {
-    width: 50vw;
+#simpleL{
+    width: 45%;
 }
 
 #simpleR {
+    width: 55vw;
+    padding: 1.6vw 0px 0px 0px;
+
+}
+
+/* #simpleR {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-}
+} */
 
 #simpleR h1{
     line-height: 50px;
@@ -114,12 +120,16 @@ h5{
 #simpleR img {
     height: calc(70vh - 15px);
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-bottom: 7px;
 }
 
 ul{
     list-style: none;
     padding-left: 5px;
+}
+
+li{
+    white-space: nowrap;
 }
 
 .simple a{
@@ -139,6 +149,7 @@ ul{
 
 .activeNavLink{
     color: rgb(10, 162, 196) !important;
+    scale: 1.1;
 }
 
 #nright a{
@@ -149,4 +160,9 @@ ul{
 
 #nright h5{
     margin: 0;
+}
+
+#maincontent i{
+    color: #2a9ad2;
+    font-size: 30px;
 }

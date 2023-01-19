@@ -21,12 +21,12 @@ const Navbar = () => {
                     className={({ isActive }) => (isActive ? "activeNavLink" : "")}
                     to="/latest"
                 >
-                    Latest
+                    Top Rated
                 </NavLink>
                 <p>More</p>
             </div>
             <div id="nright">
-                <h5>Github se kiya hai to update hote rahega</h5>
+                <h5>Github se kiya hai, update hote rahega deployment</h5>
                 <a href="https://github.com/Abhyuday911/c1-.git"><i className="ri-external-link-fill"></i> https://github.com/Abhyuday911/c1-.git</a>
             </div>
         </div>

@@ -11,6 +11,7 @@ const Details = () => {
                 const { data } = await axios.get(
                     `https://api.themoviedb.org/3/movie/${id}?api_key=5916c3f8aebf48725786f494decb0db8`
                 );
+                console.log(data);
                 setMovie(data);
             } catch (err) {
                 console.log(err);

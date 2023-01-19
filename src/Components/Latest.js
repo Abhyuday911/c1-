@@ -33,9 +33,8 @@ const Popularmovies = () => {
         <div id="main">
             <div id='slide1' className="slide">
                 <div id="maincontent">
-                    <h1>Latest movies</h1>
                     <div className="d-flex simple">
-                        <div id="simpleL"><ul>{MovieList}</ul></div>
+                        <div id="simpleL"><h1>Top Rated</h1><ul>{MovieList}</ul></div>
                         <Outlet />
                     </div>
                 </div>
