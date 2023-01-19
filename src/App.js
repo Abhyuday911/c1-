@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import { Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Details from "./Components/Details";
 import Latest from "./Components/Latest";
 import Home from "./Components/Home";

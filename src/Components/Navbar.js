@@ -27,7 +27,7 @@ const Navbar = () => {
             </div>
             <div id="nright">
                 <h5>Github se kiya hai to update hote rahega</h5>
-                <a href="https://github.com/Abhyuday911/c1-.git"><i class="ri-external-link-fill"></i> https://github.com/Abhyuday911/c1-.git</a>
+                <a href="https://github.com/Abhyuday911/c1-.git"><i className="ri-external-link-fill"></i> https://github.com/Abhyuday911/c1-.git</a>
             </div>
         </div>
     )
