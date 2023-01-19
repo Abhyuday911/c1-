@@ -32,8 +32,8 @@ const Home = () => {
     return (
         <>
             <div id="main">
-                <div className="slide">
-                    <div id="nav">
+                <div id='slide1' className="slide">
+                    {/* <div id="nav">
                         <div id="nleft">
                             <p>Movies</p>
                             <p>TV Shows</p>
@@ -42,7 +42,7 @@ const Home = () => {
 
                         </div>
                         <div id="nright"><h4>plain wala mal niche hai</h4></div>
-                    </div>
+                    </div> */}
                     <div id="maincontent">
                         <h1>Popular movies</h1>
                         <div className="d-flex simple">
@@ -53,8 +53,6 @@ const Home = () => {
                 </div>
                 <div className="slide"></div>
             </div>
-
-
         </>
     )
 }

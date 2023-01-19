@@ -35,18 +35,22 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #151515;
+    background: #020405;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #151515;
+    background: #0e1011;
 }
 
 .slide {
     height: 100%;
     width: 100%;
     background-color: rgb(18, 18, 18);
+}
+
+#slide1{
+    padding-top: 60px;
 }
 
 #nav {
@@ -58,6 +62,9 @@ body {
     justify-content: space-between;
     padding: 20px;
     color: #888;
+    position: fixed;
+    top: 0%;
+    left: 0%;
 }
 
 #nleft,
@@ -73,21 +80,21 @@ p {
 }
 
 #maincontent {
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
     width: 100%;
     color: rgb(196, 196, 196);
     padding: 1vw 2vw;
+    overflow: hidden;
 }
 
 .simple {
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
 }
 
 #simpleL,
 #simpleR {
     width: 50vw;
-    height: 100%;
 }
 
 #simpleR {
@@ -98,5 +105,17 @@ p {
 }
 
 #simpleR img {
-    height: 70vh;
+    height: calc(70vh - 15px);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 5px;
+}
+
+a{
+    color: #2a9ad2;
+    text-decoration: none;
 }
