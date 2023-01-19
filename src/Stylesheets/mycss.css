@@ -124,7 +124,16 @@ ul{
     text-decoration: none;
 }
 
+.simple a:hover{
+    color: rgb(15, 109, 209);
+    text-decoration: none;
+}
+
 #nav a{
     text-decoration: none;
     color: #fafafa;
 }
+
+/* #merah1{
+    text-align: center;
+} */

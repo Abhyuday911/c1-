@@ -1,44 +1,19 @@
 import React from 'react'
-import { useEffect, useState } from "react";
-import axios from "axios";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from './Navbar';
+// import Popularmovies from "./Popularmovies";
+
 
 const Home = () => {
 
-    const [Movies, setMovies] = useState([]);
-    const getPopularMovies = async () => {
-        try {
-            const { data } = await axios.get(
-                "https://api.themoviedb.org/3/movie/popular?api_key=223667d1239871fc4b6eeef8d0d6def8&language=en-US&page=1"
-            );
-            setMovies(data.results);
-        } catch (err) {
-            console.log(err);
-        }
-    };
-
-    useEffect(() => {
-        getPopularMovies();
-    }, []);
-
-    let MovieList = "Loading...";
-    if (Movies.length > 0) {
-        MovieList = Movies.map((m) => (
-            <li key={m.id}>
-                <Link to={`/details/${m.id}`}>{m.original_title}</Link>
-            </li>
-        ));
-    }
     return (
         <>
             <div id="main">
                 <div id='slide1' className="slide">
+                    <Navbar />
                     <div id="maincontent">
-                        <h1>Popular movies</h1>
-                        <div className="d-flex simple">
-                            <div id="simpleL"><ul>{MovieList}</ul></div>
-                            <Outlet />
-                        </div>
+                        <Outlet />
+                        <h1 id='merah1'><small> Ye mera home page hai iska koi majak nahi urayega,</small><br /> app nav bar se kam ke mal pe abhi jaye</h1>
                     </div>
                 </div>
                 <div className="slide"></div>

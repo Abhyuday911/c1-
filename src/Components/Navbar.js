@@ -13,7 +13,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => (isActive ? "red" : "")}
-                    to="/"
+                    to="/popular"
                 >
                     Popular
                 </NavLink>
