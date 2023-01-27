@@ -219,37 +219,5 @@ li {
     color: #cdcdcd9c;
 }
 
-.pDetail {
-    height: calc(70vh - 15px);
-}
-
-#movieDetails {
-    height: 100%;
-}
-
-#movieDetails {
-    padding: 0px 0px 0px 25px;
-}
-
-#movieDetails h4 {
-    font-weight: 500;
-}
-
-#overviewdets {
-    font-size: 20px;
-    color: #999;
-    height: 50%;
-    background-color: rgba(36, 35, 35, 0.316);
-    overflow: auto;
-    border: 2px solid rgb(19, 25, 32);
-}
-
-
-
-
-
-
-
-
 
 /* slide2 */
