@@ -36,7 +36,7 @@ const Details = () => {
                         </p>
                     </div>
                     <div id="movieDetails">
-                        <h4><b>Conclusion:</b></h4>
+                        <h4><b>Conclusion: {Movie.overview}</b></h4>
                     </div>
                 </div>
                 <h1>{Movie.original_title}</h1>

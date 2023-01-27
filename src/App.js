@@ -8,6 +8,7 @@ import Popularmovies from './Components/Popularmovies';
 import Navbar from './Components/Navbar';
 // import Tester from './Components/Tester';
 import "./Stylesheets/mycss.css"
+import Searchresults from './Components/Searchresults';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path='/search/:dets' element={<Searchresults />}/>
                 <Route path="/latest" element={<Latest />}>
                     <Route path="/latest/details/:id" element={<Details />} />
                 </Route>
