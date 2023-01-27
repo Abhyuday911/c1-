@@ -52,7 +52,7 @@ const Navbar = () => {
                 {/* <h5>Github se kiya hai, update hote rahega deployment</h5> */}
                 {/* <a href="https://github.com/Abhyuday911/c1-.git" target={'_blank'} rel= {'noreferrer'}><i className="ri-external-link-fill"></i> https://github.com/Abhyuday911/c1-.git</a> */}
                 <form action="/search" method="get" onSubmit={submitHandle} >
-                    <input onFocus={focushandler} onBlur={blurhandler} className='movieinput' type="text" id="ncenter" placeholder="Search" required autoComplete="off" />
+                    <input onFocus={focushandler} onBlur={blurhandler} className='movieinput' type="text" id="ncenter" placeholder="Search Movie" required autoComplete="off" />
                 </form>
             </div>
         </div>

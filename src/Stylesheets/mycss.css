@@ -108,7 +108,6 @@ h5 {
 }
 
 #maincontent {
-    height: calc(100vh - 60px);
     width: 100%;
     color: rgb(196, 196, 196);
     padding: .8vw 2vw;
@@ -131,7 +130,7 @@ h5 {
     height: calc(100vh - 60px);
 
     background: rgba(46, 43, 43, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(79, 79, 81, 0.37);
+    /* box-shadow: 0 8px 32px 0 rgba(57, 57, 57, 0.37); */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 10px;
@@ -217,6 +216,12 @@ li {
     font-size: 18px;
     line-height: 18px;
     color: #cdcdcd9c;
+}
+
+#movieDetails {
+    padding: 5px 0px 5px 22px;
+    height: 39vh;
+    overflow: auto;
 }
 
 
