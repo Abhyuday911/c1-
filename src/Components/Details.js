@@ -44,7 +44,7 @@ const Details = () => {
         );
     }
 
-    return <div>{MovieDetails}</div>;
+    return MovieDetails;
 };
 
 export default Details;

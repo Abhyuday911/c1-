@@ -29,6 +29,7 @@ const Popularmovies = () => {
             </li>
         ));
     }
+    
     return (
         <div id="main">
             <div id='slide1' className="slide">
@@ -39,7 +40,7 @@ const Popularmovies = () => {
                     </div>
                 </div>
             </div>
-            <div className="slide"></div>
+            {/* <div className="slide"></div> */}
         </div>
     )
 }

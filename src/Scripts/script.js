@@ -1,11 +1,9 @@
-// document.querySelector(".movieinput").addEventListener("focus", () => {
-//     document.querySelector(".movieinput").style.backgroundImage = "none";
-//     document.querySelector(".movieinput").style.paddingLeft = "16px";
-// });
-// document.querySelector(".movieinput").addEventListener("focusout", () => {
-//     document.querySelector(".movieinput").style.backgroundImage =
-//         "url('../assets/search_Icon.png')";
-//     document.querySelector(".movieinput").style.paddingLeft = "4%";
-// });
-// 
-// console.log('hello');
+import axios from "axios";
+import mycparticle from "../assets/particles.json"
+
+axios.get("https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js").then(data => {
+    // particlesJS.load('particles-js', { mycparticle }, function () {
+    //     console.log('callback - particles.js config loaded')
+    // });
+    console.log(data.data);
+})

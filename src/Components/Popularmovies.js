@@ -40,7 +40,7 @@ const Popularmovies = () => {
                     </div>
                 </div>
             </div>
-            <div className="slide"></div>
+            {/* <div className="slide"></div> */}
         </div>
     )
 }

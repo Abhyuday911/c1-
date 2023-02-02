@@ -14,7 +14,7 @@ const Navbar = () => {
     }
 
     const blurhandler = (e) => {
-        document.querySelector(".movieinput").style.backgroundImage =` url(${search})`;
+        document.querySelector(".movieinput").style.backgroundImage = ` url(${search})`;
         document.querySelector(".movieinput").style.paddingLeft = "13%";
     }
 
