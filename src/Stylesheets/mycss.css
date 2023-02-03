@@ -44,7 +44,7 @@ body {
 }
 
 .slide {
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     background-color: rgb(18, 18, 18);
 }
@@ -275,6 +275,23 @@ li {
 }
 
 
+/* _________________swiper__________________ */
+
+.swiper{
+    /* padding: .8vw 2vw; */
+    height: calc(100% - 40% - 1.6vh);
+    /* background-color: #333; */
+    padding: 4px 0 0 0;
+    margin: 10px 0 0px 0;
+}
+
+.swiper-slide{
+    background-color: rgb(86, 83, 83);
+}
+
+#swipertitle{
+    margin-top: 20px;
+}
 
 
 
