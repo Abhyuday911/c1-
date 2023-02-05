@@ -4,9 +4,6 @@ import 'swiper/css';
 
 const HomeSlider = () => {
 
-    // useEffect(() => {
-
-    // }, [])
 
     return (
         <>  
