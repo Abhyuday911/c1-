@@ -18,7 +18,7 @@ const Home = () => {
                     <HomeSlider />
                 </div>
             </div>
-            <div className="slide"></div> 
+            {/* <div className="slide"></div> */}
         </div>
     )
 }
