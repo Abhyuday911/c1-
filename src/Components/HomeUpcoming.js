@@ -24,23 +24,10 @@ const HomeUpcoming = () => {
         getUpcomingMovies();
     }, []);
 
-    // let MovieList0 = "Loading...";
-    // if (UpcomingMovies.length > 0) {
-    //     console.log = (UpcomingMovies);
-    //     MovieList0 =
-    //         <swiper-container slides-per-view="5" space-between='20'>{[1,2,3,4,5,6,7,8,9,0].map((m, idx) => { return (<swiper-slide key={m}><img src="" alt="" />{m}</swiper-slide>) })}</swiper-container>
-
-    // }
-
-    // console.log("35")/
     return (
         <>
             <h1 id='swipertitle'>Upcoming Movies</h1>
-
-            {/* {MovieList0} */}
-            
             {UpcomingMovies.length ? <swiper-container slides-per-view="5" space-between='20'>{UpcomingMovies.map((m, idx) => { return (<swiper-slide key={m.id}><img src="" alt="" />{m.id}</swiper-slide>) })}</swiper-container> :"loading..."}
-
         </>
     )
 }
