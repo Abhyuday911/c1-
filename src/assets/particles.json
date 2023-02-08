@@ -1,10 +1,11 @@
 {
+  "fullScreen": { "enable": false, "zIndex": 0 },
   "particles": {
     "number": {
-      "value": 204,
+      "value": 134,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 700
       }
     },
     "color": {
@@ -54,7 +55,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 3,
       "direction": "none",
       "random": false,
       "straight": false,

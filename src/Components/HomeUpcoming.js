@@ -27,7 +27,7 @@ const HomeUpcoming = () => {
     return (
         <>
             <h1 id='swipertitle'>Upcoming Movies</h1>
-            {UpcomingMovies.length ? <swiper-container slides-per-view="5" space-between='20'>{UpcomingMovies.map((m, idx) => { return (<swiper-slide key={m.id}><img src="" alt="" />{m.id}</swiper-slide>) })}</swiper-container> :"loading..."}
+            {UpcomingMovies.length ? <swiper-container slides-per-view="5" space-between='20'>{UpcomingMovies.map((m, idx) => { return (<swiper-slide key={m.id}><img src="" alt="" />{m.id}</swiper-slide>) })}</swiper-container> :<div id="holder"></div>}
         </>
     )
 }
