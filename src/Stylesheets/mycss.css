@@ -12,7 +12,7 @@
 
 html,
 body {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: rgb(15, 18, 21);
     color: rgb(245, 243, 243);
@@ -20,7 +20,7 @@ body {
 }
 
 #main {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -111,9 +111,9 @@ h5 {
 
 #maincontent {
     width: 100%;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
     color: rgb(196, 196, 196);
-    padding: .8vw 2vw;
+    padding: .8vw 2vw 4vh 2vw;
     /* overflow: hidden; */
 }
 
@@ -222,7 +222,7 @@ li {
 }
 
 #movieDetails {
-    padding: 5px 0px 5px 22px;
+    padding: 5px 0px 30px 22px;
     margin: 0px 10px 0px 15px;
     height: 39vh;
     overflow: auto;
@@ -233,7 +233,7 @@ li {
 
 
 #title {
-    height: 40%;
+    height: 35.5vh;
     width: 100%;
     background-color: rgb(29, 29, 30);
     display: flex;
@@ -252,6 +252,7 @@ li {
 
 #title h5{
     font-size: 25px;
+    text-align: center;
 }
 
 #particleDivChild{
@@ -296,11 +297,12 @@ canvas{
     height: calc(100% - 40% - 1.6vh);
     /* background-color: #333; */
     padding: 4px 0 0 0;
-    margin: 10px 0 0px 0;
+    margin: 10px 0 30px 0;
 }
 
 .swiper-slide, swiper-slide {
     background-color: rgb(86, 83, 83);
+    position: relative;
 }
 
 #swipertitle{
@@ -308,12 +310,37 @@ canvas{
 }
 
 #holder{
-    height: calc(100% - 40% - 1.6vh);
+    height: 40vh;
     /* background-color: #333; */
     padding: 4px 0 0 0;
     margin: 10px 0 0px 0;
 }
 
+swiper-slide{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid rgba(88, 98, 105, 0.322);
+    filter: grayscale(.35);
+}
+
+#imgoverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    /* background-color: #69686846; */
+    background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.581),rgba(0, 0, 0, 0.416),rgba(0, 0, 0, 0.235), #69686846, #69686846, #69686846);
+
+    /* backdrop-filter: blur(0.5px); */
+}
 
 
 
