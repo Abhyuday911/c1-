@@ -3,5 +3,5 @@
 
 
 
-#### 🔗 Link - https://funny-semifreddo-c51317.netlify.app/
-optemize krna abhi bacha hai popular aour latest ke html ko
+#### 🔗 Link - https://tmdb-abhyuday.netlify.app/
+Current working on ui for popular and top rated pages, pagination for search results page
