@@ -32,7 +32,7 @@ const HomeUpcoming = () => {
         <>
             <h1 id='swipertitle'>Upcoming Movies</h1>
             {UpcomingMovies.length ? <swiper-container grab-cursor={true} navigation="true" thumbs-swiper=".my-thumbs" slides-per-view="5" space-between='20' >{UpcomingMovies.map((m, idx) => {
-                return (<swiper-slide key={m.id} lazy="true"><div id="imgoverlay"></div><img src={`https://image.tmdb.org/t/p/w500/${m.poster_path}`}
+                return (<swiper-slide key={m.id} lazy="true"><div class="imgoverlay"></div><img src={`https://image.tmdb.org/t/p/w500/${m.poster_path}`}
                     alt={m.poster_path} /></swiper-slide>)
             })}</swiper-container> : <div id="holder"></div>}
         </>
